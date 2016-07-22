@@ -3,7 +3,9 @@
 
 
 关键函数
+
 public void addMark(double latitude,double longitude,int i){
+
 		LatLng latLng = new LatLng(latitude, longitude);
 		//准备 marker 的图片  
 		View view = getLayoutInflater().inflate(R.layout.text, null);
